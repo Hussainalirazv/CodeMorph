@@ -4,37 +4,35 @@
 Welcome to the CodeMorph project! This is a full-stack web application designed to translate code from one programming language to another using a fine-tuned CodeT5 model.
 
 🌟 Project Overview
+
 CodeMorph provides a user-friendly interface for developers to translate code snippets instantly. The backend, built with FastAPI, uses a specialized machine learning model for translation, while the frontend, created with React, offers a seamless and interactive user experience.
 
 ✨ Features
-Code-to-Code Translation: Translate code between multiple programming languages.
 
-Intuitive UI: A clean and modern user interface built with Material-UI components.
+1.  Code-to-Code Translation: Translate code between multiple programming languages.
+2.  Intuitive UI: A clean and modern user interface built with Material-UI components.
+3.  Language Selection: Easily select source and target languages from a dropdown list.
+4.  Code Highlighting: Syntax highlighting in both the input and output editors for improved readability.
+5.  File I/O: Upload code files for translation and download the translated output.
+6.  Dark Mode: A convenient toggle to switch between light and dark themes.
 
-Language Selection: Easily select source and target languages from a dropdown list.
+         🛠️ Technologies Used
 
-Code Highlighting: Syntax highlighting in both the input and output editors for improved readability.
-
-File I/O: Upload code files for translation and download the translated output.
-
-Dark Mode: A convenient toggle to switch between light and dark themes.
-
-🛠️ Technologies Used
 Frontend:
 
-React (with Vite): For building the single-page application.
+1. React (with Vite): For building the single-page application.
 
-Material-UI: A popular React UI framework for a consistent design.
+2. Material-UI: A popular React UI framework for a consistent design.
 
-react-syntax-highlighter: For displaying formatted code.
+3. react-syntax-highlighter: For displaying formatted code.
 
 Backend:
 
-FastAPI: A high-performance Python web framework for the API.
+1. FastAPI: A high-performance Python web framework for the API.
 
-transformers: The Hugging Face library for loading the machine learning model.
+2. transformers: The Hugging Face library for loading the machine learning model.
 
-CodeT5: An encoder-decoder Transformer model for code, fine-tuned on the XLCoST dataset.
+3. CodeT5: An encoder-decoder Transformer model for code, fine-tuned on the XLCoST dataset.
 
 Machine Learning:
 
